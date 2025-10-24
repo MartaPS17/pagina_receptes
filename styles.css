@@ -1,0 +1,43 @@
+header {
+  background-color: #FAD1AF;
+  padding:1px;
+  border: 1px solid black;
+  width: 100%;
+
+}
+
+header li { 
+  display: inline;
+}
+
+
+body { 
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.llista-posicio {
+  display: flex;
+  gap: 10px;
+  text-align: right;
+} 
+  
+
+
+
+.sa-font{
+  font-family: "Arial", sans-serif;
+}
+
+section {
+  background-color: lightgray;
+  width: 100%;
+  height: 300px;
+}
+
+.lletra-petita{
+  font-size: 8px;
+}
