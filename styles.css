@@ -15,44 +15,107 @@ header li {
   text-align: center;
 }
 
-img { /* posició de logo */
+.imglogo { /* posició de logo */
   position: absolute;
   bottom: 690px;
 
 }
 
-.container { /* llevar espai entre divs*/
+.container{  /*lleva dist entre sec i head*/
   padding: 10px;
   margin:0;
 }
 
-.inner-container {
-  position: relative;
-}
 
 body { 
   margin: 0;
   padding: 0;
 }
 
-.llista-posicio { /*posa llista horizontal*/
-  display: flex;
-  gap: 30px;
-} 
   
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  margin-right: 20px;
+}
+
+.inner-container {
+  padding-left: 130px;
+  padding-bottom: 50px ;
+}
 
 
 .sa-font{
   font-family: "Arial", sans-serif;
 }
 
-section {
-  background-color: lightgray;
-  width: 100%;
+.section2 {
+  background-color: lightyellow ;
   height: 400px;
+  
 
 }
 
+section ul {
+  position:relative;
+  top:70px;
+  left:50px;
+
+}
+
+.see-recipe{
+  
+  height:30px;
+  border: 3px solid pink;
+  border-radius: 25px;
+  background:transparent;
+  position:absolute;
+   
+}
+
+.colorsee-recipe{
+  color: pink;
+  font-size: 16px;
+
+}
+
+.img2 {
+  position: relative;
+  bottom: 70px;
+  left: 300px;
+}
+
+.section3{
+  
+ background-color: lightyellow ;
+  height: 50px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .lletra-petita{
-  font-size: 8px;
+  font-size: 15px;
+}
+
+.lletra-gran{
+  font-size: 30px;
+}
+
+.negrita{
+  font-weight:800;
 }
