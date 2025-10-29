@@ -4,15 +4,11 @@ header {
   border: 1px solid black;
   width: 100%;
   height: 35px;
+  display: flex;
 }
 
-
-header li { 
-  display: inline;
-}
-
-.center-right {  /* Centra taula */
-  text-align: center;
+header ul { 
+  display: flex;
 }
 
 .imglogo { /* posició de logo */
@@ -26,15 +22,14 @@ header li {
   margin:0;
 }
 
-
 body { 
   margin: 0;
   padding: 0;
 }
-
   
 ul{
   list-style-type: none;
+
 }
 
 ul li{
@@ -46,29 +41,21 @@ ul li{
   padding-bottom: 50px ;
 }
 
-
-.sa-font{
-  font-family: "Arial", sans-serif;
-}
-
 .section2 {
-  background-color: lightyellow ;
+  background-color: #FAFAD2 ;
   height: 400px;
-  
-
 }
 
 section ul {
   position:relative;
   top:70px;
   left:50px;
-
 }
 
 .see-recipe{
   
   height:30px;
-  border: 3px solid pink;
+  border: 3px solid hotpink;
   border-radius: 25px;
   background:transparent;
   position:absolute;
@@ -76,7 +63,7 @@ section ul {
 }
 
 .colorsee-recipe{
-  color: pink;
+  color: hotpink;
   font-size: 16px;
 
 }
@@ -92,21 +79,20 @@ section ul {
  background-color: lightyellow ;
   height: 50px;
   border: 1px solid black;
+
+}
+
+.llista3{
+  position:absolute;
+  left:50px;
+  top:473px;
+  display: inline-flex;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.grey {
+  color: grey;
+}
 
 .lletra-petita{
   font-size: 15px;
