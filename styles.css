@@ -46,7 +46,8 @@ body {
   background-color:#CCBEB1;
 }
 .navbar li{
-  float:left;   
+  float:left; 
+  overflow:hidden;  
 }
 
 /* Secció de es títol */
@@ -132,7 +133,7 @@ body {
  flex-wrap:wrap;
  align-items:flex-start;
  margin: 0 5%;
- gap: 20px;
+ gap: 10px;
  
 }
   
@@ -219,5 +220,15 @@ body {
 .jhondoe img {
   max-width:40%;
   overflow:hidden;
-  
+
+}
+
+/*darrera secció*/
+
+.lastnav img {
+   max-width:20%;
+  overflow:hidden;
+
+
+
 }
