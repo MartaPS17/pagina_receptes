@@ -17,8 +17,6 @@ h5{
 }
 
 
-
-
 body {
   margin-top:0px;
   margin-left:0px;
@@ -31,7 +29,9 @@ body {
   background-color:#FFDBBB;
   padding: 0px;
   margin:0px;
-  overflow: hidden;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 
 }
 
@@ -44,11 +44,21 @@ body {
 }
 .navbar a:hover{
   background-color:#CCBEB1;
+  dispaly:block;
 }
 .navbar li{
   float:left; 
-  overflow:hidden;  
+  overflow:hidden; 
+  margin: 0 10px; 
 }
+
+@media (max-width:600px) {
+  .navbar {
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+
 
 /* Secció de es títol */
 
@@ -130,8 +140,7 @@ body {
  display:flex; 
  justify-content:center;
  align-items:flex-start;
- flex-wrap:wrap;
- align-items:flex-start;
+ flex-direction:row;
  margin: 0 5%;
  gap: 10px;
  
@@ -140,8 +149,16 @@ body {
 .section-recipe, .section-recipe2 {
   flex: 1 1 45%;
   overflow:hidden;
-  box-sizing: border-box;
+  
 
+}
+
+@media (max-width:600px) {
+  .recipes-container {
+    flex-direction:column;
+    align-items: center;
+    
+  }
 }
   
 /* Article */
@@ -157,6 +174,14 @@ body {
   display: flex;
   padding:20px;
   box-sizing:border-box;
+}
+
+@media (max-width:600px) {
+  .rectangle {
+    flex-direction:column;
+    align-items: center;
+    
+  }
 }
  
 .center-never{
@@ -228,7 +253,33 @@ body {
 .lastnav img {
    max-width:20%;
   overflow:hidden;
+}  
 
 
+.lastnav ul{
+  list-style-type: none;
+  background-color:#FFDBBB;
+  padding: 0px;
+  margin:0px;
+  overflow: hidden;
 
 }
+
+.lastnav a{
+  color: black;
+  text-decoration:none;
+  padding:25px;
+  display: block;
+  text-align: center;
+}
+.lastnav a:hover{
+  background-color:#CCBEB1;
+}
+.lastnav li{
+  float:left; 
+  overflow:hidden;  
+}
+
+/*media*/
+
+@media (max-width:300px){
