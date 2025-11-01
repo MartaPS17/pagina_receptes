@@ -8,6 +8,10 @@ h2{
 
 }
 
+h3{
+
+}
+
 h5{
 
 }
@@ -75,11 +79,21 @@ body {
   margin-right: 20%;
 }
 
+.boto1 {
+
+  height:30px;
+  border: 2px solid hotpink;
+  border-radius: 25px;
+  background:transparent;
+  
+}
+
+
 /*Navbar 2*/
 
 .navbar2 ul{
   list-style-type: none;
-  background-color:floralwhite;
+  background-color:;
   padding: 0px;
   margin:0px;
   
@@ -99,3 +113,36 @@ body {
 .navbar2 li{
   float:left;   
 }
+
+
+/* Seccio Latest recipe */
+
+.centra-titol {
+  margin-top: 13%;
+  margin-left: 5%;
+  
+
+}
+
+.recipes-container {
+
+ display:flex; 
+ justify-content:center;
+ align-items:flex-start;
+ flex-wrap:wrap;
+ align-items:flex-start;
+ margin: 0 5%;
+ gap: 20px;
+ 
+}
+  
+.section-recipe, .section-recipe2 {
+  flex: 1 1 45%;
+  overflow:hidden;
+  box-sizing: border-box;
+
+}
+  
+
+ 
+ 
