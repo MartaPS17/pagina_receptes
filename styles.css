@@ -85,6 +85,7 @@ body {
   border: 2px solid hotpink;
   border-radius: 25px;
   background:transparent;
+  cursor:pointer;
   
 }
 
@@ -121,7 +122,6 @@ body {
   margin-top: 13%;
   margin-left: 5%;
   
-
 }
 
 .recipes-container {
@@ -143,6 +143,81 @@ body {
 
 }
   
+/* Article */
 
+.rectangle {
+  margin: 10%;
+  background-color: lightcoral;
+  width:80%;
+  justify-content:center;
+  align-items:flex-start;
+  border-radius: 25px;
+  height: 140px;
+  display: flex;
+  padding:20px;
+  box-sizing:border-box;
+}
  
- 
+.center-never{
+  max-width:90%;
+} 
+
+.button3 {
+  background-color:floralwhite;
+  border: solid black;
+  padding: 4px 35px;
+  text-align: center;
+  fontsize: 12px;
+  cursor:pointer;
+  border-radius:10px;
+}
+
+/* Popula section */
+
+.separa{
+  padding: 10px;
+
+
+}
+
+/*Jhone Doe section */
+
+.jhonsection{
+  background:pink;
+   height:280px;
+   width:100%;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   margin:0;
+   padding:0;
+  border: 1px solid black;
+  overflow:hidden;
+
+}
+
+
+.jhondoe {
+  margin-right: 20%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display:flex;
+  justify-content: space-between;
+  width:80%;
+  align-items:center;
+
+}
+
+.jhondoe ul{
+  list-style-type: none;
+  padding: 0px;
+  margin:100px;
+  margin-left:10px;
+   max-width:40%;
+}   
+
+.jhondoe img {
+  max-width:40%;
+  overflow:hidden;
+  
+}
